@@ -1,0 +1,34 @@
+{
+  "name": "Project Discordia",
+  "version": "5.0.8",
+  "description": "Bot for Project Discordia, the free & open source general purpose Discord bot!",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enaideira/Project-Discordia.git"
+  },
+  "keywords": [
+    "Yes"
+  ],
+  "author": "Enaideira",
+  "contributors": [
+    "RileCraft (https://github.com/RileCraft/DiscordBot-Template)" ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enaideira//Project-Discordia/issues"
+  },
+  "homepage": "https://github.com/Enaideira/Project-Discordia#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "cli-box": "^6.0.10",
+    "quick.db": "^7.1.3",
+    "sqlite3": "^5.0.0"
+  }
+}
