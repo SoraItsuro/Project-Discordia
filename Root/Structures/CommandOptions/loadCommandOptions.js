@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+const os = require("os")
 const { path, config } = require("../../../bot")
 module.exports = async function (client, message, command, isInteraction, interactionType) {
     if (!command) return;

@@ -1,4 +1,5 @@
 const { inspect } = require('util')
+const os = require("os")
 module.exports = {
     name : 'eval',
     ownerOnly: true,
