@@ -9,7 +9,8 @@ module.exports = {
 		.setTimestamp()
 		.setTitle('❓ | Help!')
 		.setDescription(`Help coming soon!`)
-        .setFooter(`Running with love on  ${os.type()}`);
+		.addField("**Join our support server!**", "https://discord.gg/vbs5RZD", false)
+    .setFooter(`Running with love on  ${os.type()}`);
 		interaction.reply({ embeds: [llamarama] })
 	}
 }
