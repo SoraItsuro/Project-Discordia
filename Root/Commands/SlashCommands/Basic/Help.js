@@ -12,7 +12,7 @@ module.exports = {
 		.setDescription(`My Message Command prefix is the **-** key! I have several handy Slash Commands, too!`)
 		.addField("**• Join our support server!**", "You can join by clicking [here!](https://discord.gg/vbs5RZD)", false)
 		.addField("test", "test", false)
-    	.setFooter(`Running with love on  ${os.type()}`);
+    	.setFooter(`Version ${Config.version} "${Config.versionName}"`);
 		interaction.reply({ embeds: [llamarama] })
 	}
 }
