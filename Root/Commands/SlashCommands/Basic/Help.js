@@ -1,5 +1,4 @@
 const os = require("os")
-const Config = require("./Config")
 
 module.exports = {
 	name: "help",
@@ -13,7 +12,7 @@ module.exports = {
 		.setDescription(`My Message Command prefix is the **-** key! I have several handy Slash Commands, too!`)
 		.addField("**• Join our support server!**", "You can join by clicking [here!](https://discord.gg/vbs5RZD)", false)
 		.addField("test", "test", false)
-    	.setFooter(`Version ${Config.version} "${Config.versionName}"`);
+    	.setFooter(`Version ${config.version} "${config.versionName}"`);
 		interaction.reply({ embeds: [llamarama] })
 	}
 }
