@@ -1,4 +1,5 @@
-const os = require("os")
+const os = require("os");
+const Config = require("./Config.js")
 
 module.exports = {
 	name: "help",
