@@ -1,5 +1,5 @@
 const os = require("os");
-const config = require("./Config");
+const config = require(".../Config");
 
 module.exports = {
 	name: "help",
