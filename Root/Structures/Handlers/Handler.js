@@ -1,5 +1,3 @@
-const config = require("../Config");
-
 module.exports = {
     loadMessageCommands: require("./MessageCommands"),
     loadEvents: require("./Events"),
