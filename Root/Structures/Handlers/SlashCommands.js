@@ -1,5 +1,6 @@
 const fs = require("fs");
 const Filer = require("../../Utils/Filer");
+const config = require("./Config");
 module.exports = async function(client, path) {
     Filer(`${path}/Root/Commands/SlashCommands`, async function(err, res) {
         res.forEach(file => {
